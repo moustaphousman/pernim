@@ -1,0 +1,74 @@
+{
+    "results": [
+        {
+            "gender": "female",
+            "name": {
+                "title": "Miss",
+                "first": "Elizabeth",
+                "last": "Ruiz"
+            },
+            "email": "elizabeth.ruiz@example.com",
+            "login": {
+                "uuid": "5c252a6e-2a6f-49af-946a-3cab0aafe7b4",
+                "username": "redelephant793"
+            },
+            "phone": "013873 85836"
+        },
+        {
+            "gender": "male",
+            "name": {
+                "title": "Mr",
+                "first": "Raymond",
+                "last": "Schmidt"
+            },
+            "email": "raymond.schmidt@example.com",
+            "login": {
+                "uuid": "f9fb9343-955d-4e93-84e2-b1ae576dd8d5",
+                "username": "angrygorilla460"
+            },
+            "phone": "017687 65126"
+        },
+        {
+            "gender": "male",
+            "name": {
+                "title": "Mr",
+                "first": "Sebastian",
+                "last": "Medina"
+            },
+            "email": "sebastian.medina@example.com",
+            "login": {
+                "uuid": "a0c15082-5af0-47b2-90d5-8d23cb878abd",
+                "username": "angrygoose899"
+            },
+            "phone": "015242 63736"
+        },
+        {
+            "gender": "female",
+            "name": {
+                "title": "Miss",
+                "first": "Katie",
+                "last": "Stephens"
+            },
+            "email": "katie.stephens@example.com",
+            "login": {
+                "uuid": "a8f6c4d4-7f51-4da6-bd7c-29d8f008a4b9",
+                "username": "goldenelephant605"
+            },
+            "phone": "013873 16560"
+        },
+        {
+            "gender": "male",
+            "name": {
+                "title": "Mr",
+                "first": "Shane",
+                "last": "Gutierrez"
+            },
+            "email": "shane.gutierrez@example.com",
+            "login": {
+                "uuid": "c4ca61c1-501d-46cd-88a5-c5bf3b84cd40",
+                "username": "whitemouse498"
+            },
+            "phone": "013873 78662"
+        }
+    ]
+    }
