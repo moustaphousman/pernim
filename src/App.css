@@ -2,5 +2,92 @@
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
-  text-align: center;
+}
+
+.user-management-container {
+  margin-top: 2rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  padding: 1rem;
+}
+
+.user-management-container table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.user-management-container th,
+.user-management-container td {
+  border: 1px solid #ccc;
+  padding: 0.5rem;
+  text-align: left;
+}
+
+.user-management-container th {
+  background-color: #e9e9e9;
+}
+
+.user-management-header {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.url-shortener-container {
+  margin-top: 2rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  padding: 1rem;
+}
+
+.url-shortener-header {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.url-shortener-input {
+  width: 100%;
+  padding: 1rem;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.url-shortener-button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.url-shortener-button:hover {
+  background-color: #0056b3;
+}
+
+.url-shortener-result {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  color: #28a745;
+}
+
+.shortened-urls-list {
+  margin-top: 1rem;
+}
+.shortened-urls-list table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.shortened-urls-list th,
+.shortened-urls-list td {
+  border: 1px solid #ccc;
+  padding: 0.5rem;
+  text-align: left;
+}
+.shortened-urls-list th {
+  background-color: #e9e9e9;
 }

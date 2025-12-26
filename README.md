@@ -1,6 +1,8 @@
-# Assessment
+# Assessments
  ## Managing list of users
    - [x] Implemented CRUD operations
+ ## URL Shortener
+   - [x] Implemented URL shortener
 ## Local Setup
 ~~~
 git clone https://github.com/moustaphousman/pernim.git

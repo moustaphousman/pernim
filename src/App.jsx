@@ -1,12 +1,16 @@
 import { useState } from 'react'
 import userData from './data/user-data.json'
+import urlsData from './data/urls-data.json'
 import './App.css'
-import UserList from './UserList'
+import UrlShortener from './UrlShortener'
+import UserManagement from './UserManagement'
 
 function App() {
   const [users, setUsers] = useState(userData.results)
   const [userFormData, setUserFormData] = useState({ name: { first: '', last: '' }, email: '' })
   const [createMode, setCreateMode] = useState(false);
+  const [urls, setUrls] = useState(urlsData);
+
   const removeUser = (id) => {
     const filteredUsers = users.filter((user) => user.login.uuid !== id);
     setUsers(filteredUsers);
@@ -37,18 +41,16 @@ function App() {
     setCreateMode(false);
   };
 
+  const removeUrl = (code) => {
+    const filteredUrls = urls.filter((url) => url.key !== code);
+    setUrls(filteredUrls);
+  };
+
   return (
     <>
       <h1>Hello World</h1>
-      <button onClick={() => setCreateMode(true)}>Create User</button>
-      {createMode && <form action="">
-        <input type="text" placeholder="First Name" onChange={(e) => setUserFormData({ ...userFormData, name: { ...userFormData.name, first: e.target.value } })} />
-        <input type="text" placeholder="Last Name" onChange={(e) => setUserFormData({ ...userFormData, name: { ...userFormData.name, last: e.target.value } })} />
-      <input type="tel" placeholder="Phone" onChange={(e) => setUserFormData({ ...userFormData, phone: e.target.value })} />
-        <input type="email" placeholder="Email" onChange={(e) => setUserFormData({ ...userFormData, email: e.target.value })} />
-        <button type="submit" onClick={() => createUser()}  >Add User</button>
-      </form>}
-      <UserList users={users} onRemove={removeUser} onEdit={editUser} />
+      <UrlShortener urls={urls} removeUrl={removeUrl} setUrls={setUrls} />
+      <UserManagement users={users} setUsers={setUsers} removeUser={removeUser} editUser={editUser} createMode={createMode} setCreateMode={setCreateMode} userFormData={userFormData} setUserFormData={setUserFormData} createUser={createUser} />
     </>
   )
 }

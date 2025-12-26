@@ -9,7 +9,7 @@ export default function UserList({ users, onRemove, onEdit }) {
                     <th>Name</th>
                     <th>Phone</th>
                     <th>Email</th>
-                    <th>Actions</th>
+                    <th colSpan="2">Actions</th>
                 </tr>
             </thead>
             <tbody>

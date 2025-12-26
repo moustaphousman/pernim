@@ -1,0 +1,12 @@
+[
+    {
+        "key": "0g5w1q",
+        "originalUrl": "https://www.example.com/very/long/url",
+        "shortenedUrl": "https://short.ly/0g5w1q"
+    },
+    {
+        "key": "031wt2",
+        "originalUrl": "https://www.anotherexample.com/some/other/long/url",
+        "shortenedUrl": "https://short.ly/031wt2"
+    }
+]
